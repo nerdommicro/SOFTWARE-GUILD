@@ -1,0 +1,161 @@
+<!DOCTYPE html> 
+
+<!--
+======================================================
+; File:    contact.html - Contact Page
+; Author:  Michelle Nesbitt
+; Course:  Software Guild's Intro to Web Development
+; Desc:    Code Assessment: Restaurant Site Part 1
+; Created: 20 September 2020
+; Revised: 22 September 2020
+;=====================================================
+-->
+<html lang="en"> 
+<head> 
+<title>Nerdom's City Buffet - Contact Us</title>	
+</head> 
+
+<body>
+    
+    <header>
+        
+        <h1 style="text-align: center;">Nerdom's City Buffet</h1>
+        
+    </header>
+    
+    <nav>
+        <hr /> 
+        <p> <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="menu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact.html">Contact Us</a>
+        </p> 
+        <hr />
+    </nav>
+
+    
+
+    <form action="submit.html" method="POST">
+        <table width="100%">       
+            <tr> 
+                <td width="43%" style="text-align: right;"> 
+                <label for="fullName">Name:&nbsp;</label>                  
+                </td> 
+                <td width="33%" style="text-align: left;">                    
+                    <input type="text" id="fullName" name="fullName">                  
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr>   
+            <tr> 
+                <td width="43%" style="text-align: right;"> 
+                <label for="email">E-mail:&nbsp;</label>                  
+                </td> 
+                <td width="33%" style="text-align: left;">                    
+                    <input type="text" id="email" name="email">                  
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td width="43%" style="text-align: right;"> 
+                <label for="phone">Phone:&nbsp;</label>                  
+                </td> 
+                <td width="33%" style="text-align: left;">                    
+                    <input type="text" id="phone" name="phone">                  
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td width="43%" style="text-align: right;"> 
+                <label for="contact">Reason for Inquiry:&nbsp;</label>                  
+                </td> 
+                <td width="33%" style="text-align: left;">                    
+                    <select id="contact" name="contact">
+                        <option value="default" selected>Catering</option>
+                        <option value="private">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                        </select>                 
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td width="43%" style="text-align: right;vertical-align: top;"> 
+                    <label for="info">Additional Information:</label>
+                               
+                </td> 
+                <td width="33%" style="text-align: left; ">                    
+                    <textarea id="info" name="info" style="height: 75px;"></textarea>                   
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td width="43%" style="text-align: right;"> 
+                    Have you been to the restaurant?&nbsp;
+                    
+                </td> 
+                <td width="33%" style="text-align: left;">                   
+                    <fieldset style="border: 0px;"> 
+                        <input type="radio" id="choice1" name="questionnaire" value="no">
+                        <label for="choice1">No</label>                                            
+                        <input type="radio" id="choice2" name="questionnaire" value="yes">
+                        <label for="choice2">Yes</label>                        
+                    </fieldset>          
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td width="43%" style="text-align: right;"> 
+                Best days to contact you:&nbsp;               
+                </td> 
+                <td width="33%" style="text-align: left;">                    
+                    <fieldset style="border: 0px;">                         
+                        <input type="checkbox" id="Mon" name="interest" value="Mon"><label for="Mon">M</label>
+                        <input type="checkbox" id="Tues" name="interest" value="Tues"><label for="Tues">T</label>
+                        <input type="checkbox" id="Wed" name="interest" value="Wed"><label for="Wed">W</label>
+                        <input type="checkbox" id="Thurs" name="interest" value="Thurs"><label for="Thurs">Th</label>
+                        <input type="checkbox" id="Fri" name="interest" value="Fri"><label for="Fri">F</label>
+                        </fieldset>                 
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr>   
+            <tr> 
+                <td width="43%" style="text-align: right;"> 
+                                 
+                </td> 
+                <td width="33%" style="text-align: left;">                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="submit" value="Submit">                 
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr>   
+        </table>
+    </form>
+
+
+
+
+    <footer>
+        <hr />
+        <p style="text-align: center;">
+            37945 Miller Pl, Levittown, NY 11756<br><br>
+            1-800-555-7785</p>
+            <hr />
+    </footer>
+        
+</body> 
+</html>
