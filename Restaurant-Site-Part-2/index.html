@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<!--
+======================================================
+; File:    index.html - Home Page
+; Author:  Michelle Nesbitt
+; Course:  Software Guild's Intro to Web Development
+; Desc:    Code Assessment: Restaurant Site Part 2
+; Created: 20 September 2020
+; Revised: 26 September 2020
+;=====================================================
+-->
+<html lang="en"> 
+<head> 
+<title>Nerdom's City Buffet - Home Page</title>	
+<link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css" />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<style>
+    .third td{               
+        background-color:darkslategrey;
+        padding: 10px;        
+    }
+    .fourth{
+        width: 400px;
+    }
+    .firstlastcol {
+        width: 300px;
+    }
+    .third table {
+        width: 1000px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+                  
+    }
+    .third tr {
+        vertical-align: top;
+    }
+    .desc-first-line {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.25em; /* 1.25 modularscale.com*/
+        margin-bottom:0px;       
+    }
+</style>
+</head> 
+
+<body>
+    <header>        
+        <h1>Nerdom's City Buffet</h1> 
+        <nav>
+            <hr /> 
+            <a href="index.html">Home</a>&nbsp;
+                <a href="menu.html">Menu</a>&nbsp;
+                <a href="contact.html">Contact Us</a>
+           
+            <hr />
+        </nav>
+    </header>
+
+    <table class="third">       
+        <tr> 
+            <td class="firstlastcol">&nbsp;
+            </td> 
+            <td class="fourth">
+                <img src="images/food400x150.jpg" alt="picture of our dinner plates" style="width: 400px; display:block;margin-left:auto;margin-right: auto;"/> 
+                <br>               
+                    <h2 class="desc-first-line"> Restaurant Description</h2>
+                    Nerdom's City buffet features the hottest American dishes in town. Home of the 
+                    famous deep fried twinkies and desserts. Also at our restaurant you are free to bring in 
+                    any food item and we will deep fry it for you. Specials and happy hour occurs 
+                    between the hours of 11AM and 6PM Monday to Friday.
+               
+            </td>
+            <td class="firstlastcol">&nbsp;
+            </td> 
+        </tr> </table> 
+
+    <footer>
+        <hr />        
+            37945 Miller Pl, Levittown, NY 11756<br>
+            1-800-555-7785
+        <hr />
+    </footer>
+        
+</body> 
+</html>

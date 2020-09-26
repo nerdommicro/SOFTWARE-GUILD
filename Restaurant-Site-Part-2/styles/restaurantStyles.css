@@ -1,0 +1,45 @@
+
+/*
+======================================================
+; File:    restaurantStyles.css - External CSS Sheet
+; Author:  Michelle Nesbitt
+; Course:  Software Guild's Intro to Web Development
+; Desc:    Code Assessment: Restaurant Site Part 2
+; Created: 20 September 2020
+; Revised: 23 September 2020
+; Notes:   Fonts based on Base: 1em | Ratio: 1.25
+;          From site www.modularscale.com
+;=====================================================
+*/
+
+
+body {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 0.8em; 
+}
+header, footer {
+    margin-left: auto;
+    margin-right:auto; 
+    width: 1000px;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.768em;
+}
+nav {
+    text-align: left;
+}
+nav a {      
+      padding: 10px;           
+}
+.main {
+    width: 400px;
+    margin: auto;
+    
+    padding: 5px;
+}

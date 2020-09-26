@@ -1,0 +1,171 @@
+<!DOCTYPE html> 
+
+<!--
+======================================================
+; File:    contact.html - Contact Page
+; Author:  Michelle Nesbitt
+; Course:  Software Guild's Intro to Web Development
+; Desc:    Code Assessment: Restaurant Site Part 2
+; Created: 20 September 2020
+; Revised: 23 September 2020
+;=====================================================
+-->
+<html lang="en"> 
+<head> 
+<title>Nerdom's City Buffet - Contact Us</title>	
+<link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css" />
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<style>
+  
+    .third table {
+        width: 1000px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;          
+    }
+    .third td fieldset {
+        border: 0px;
+    }  
+    .col1 {
+        width: 400px;
+        text-align: right;
+    }
+    textarea {
+        height: 75px;
+    }
+   
+</style>
+</head> 
+
+<body>    
+    <header>        
+        <h1>Nerdom's City Buffet</h1> 
+        <nav>
+            <hr /> 
+            <a href="index.html">Home</a>&nbsp;
+                <a href="menu.html">Menu</a>&nbsp;
+                <a href="contact.html">Contact Us</a>
+            
+            <hr />
+        </nav>
+    </header>    
+
+    <form action="submit.html" method="POST">
+        <table class="third">       
+            <tr> 
+                <td class="col1"> 
+                    <label for="fullName">Name:&nbsp;</label>                  
+                </td> 
+                <td>                    
+                    <input type="text" id="fullName" name="fullName">                  
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr>   
+            <tr> 
+                <td class="col1"> 
+                    <label for="email">E-mail:&nbsp;</label>                  
+                </td> 
+                <td>                    
+                    <input type="text" id="email" name="email">                  
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="col1"> 
+                    <label for="phone">Phone:&nbsp;</label>                  
+                </td> 
+                <td>                    
+                    <input type="text" id="phone" name="phone">                  
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="col1">  
+                    <label for="contact">Reason for Inquiry:&nbsp;</label>                  
+                </td> 
+                <td>                    
+                    <select id="contact" name="contact">
+                        <option value="default" selected>Catering</option>
+                        <option value="private">Private Party</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                        </select>                 
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="col1"> 
+                    <label for="info">Additional Information:</label>                               
+                </td> 
+                <td>                    
+                    <textarea id="info" name="info"></textarea>                   
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="col1">  
+                    Have you been to the restaurant?&nbsp;                    
+                </td> 
+                <td>                   
+                    <fieldset> 
+                        <input type="radio" id="choice1" name="questionnaire" value="no">
+                        <label for="choice1">No</label>                                            
+                        <input type="radio" id="choice2" name="questionnaire" value="yes">
+                        <label for="choice2">Yes</label>                        
+                    </fieldset>          
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr> 
+            <tr> 
+                <td class="col1">  
+                    Best days to contact you:&nbsp;               
+                </td> 
+                <td>                    
+                    <fieldset>                         
+                        <input type="checkbox" id="Mon" name="interest" value="Mon"><label for="Mon">M</label>
+                        <input type="checkbox" id="Tues" name="interest" value="Tues"><label for="Tues">T</label>
+                        <input type="checkbox" id="Wed" name="interest" value="Wed"><label for="Wed">W</label>
+                        <input type="checkbox" id="Thurs" name="interest" value="Thurs"><label for="Thurs">Th</label>
+                        <input type="checkbox" id="Fri" name="interest" value="Fri"><label for="Fri">F</label>
+                        </fieldset>                 
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr>   
+            <tr> 
+                <td class="col1">  
+                    &nbsp;             
+                </td> 
+                <td>                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="submit" name="submit" value="Submit">                 
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+            </tr>   
+        </table>
+    </form>
+
+    <footer>
+        <hr />        
+            37945 Miller Pl, Levittown, NY 11756<br>
+            1-800-555-7785
+        <hr />
+    </footer>
+        
+</body> 
+</html>
