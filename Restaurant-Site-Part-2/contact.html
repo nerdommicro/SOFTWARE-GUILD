@@ -7,7 +7,7 @@
 ; Course:  Software Guild's Intro to Web Development
 ; Desc:    Code Assessment: Restaurant Site Part 2
 ; Created: 20 September 2020
-; Revised: 23 September 2020
+; Revised: 26 September 2020
 ;=====================================================
 -->
 <html lang="en"> 
@@ -15,8 +15,7 @@
 <title>Nerdom's City Buffet - Contact Us</title>	
 <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css" />
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-<style>
-  
+<style>  
     .third table {
         width: 1000px; 
         display: block;
@@ -28,8 +27,11 @@
     }  
     .col1 {
         width: 400px;
-        text-align: right;
+        text-align: right;        
     }
+    .irequired {
+        font-weight: bold;;
+    }      
     textarea {
         height: 75px;
     }
@@ -65,7 +67,7 @@
             </tr>   
             <tr> 
                 <td class="col1"> 
-                    <label for="email">E-mail:&nbsp;</label>                  
+                    <label class="irequired" for="email">*E-mail:&nbsp;</label>                  
                 </td> 
                 <td>                    
                     <input type="text" id="email" name="email">                  
@@ -103,7 +105,7 @@
             </tr> 
             <tr> 
                 <td class="col1"> 
-                    <label for="info">Additional Information:</label>                               
+                    <label class="irequired" for="info">*Additional Information:</label>                               
                 </td> 
                 <td>                    
                     <textarea id="info" name="info"></textarea>                   
@@ -151,7 +153,7 @@
                 </td> 
                 <td>                    
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="submit" name="submit" value="Submit">                 
+                    <input type="submit" name="submit" value="Send Request">                 
                 </td> 
                 <td>
                     &nbsp;

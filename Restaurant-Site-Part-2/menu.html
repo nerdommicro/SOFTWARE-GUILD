@@ -15,28 +15,54 @@
 <title>Nerdom's City Buffet - Menu</title>
 <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css" />
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-<style>  
-    .third td{
-        width: 333px;
-        text-align: center;
-        background-color:darkslategrey;
-        
-    }
-    .third table {
+<style>   
+
+    table {
         width: 1000px; 
         display: block;
         margin-left: auto;
         margin-right: auto;
-        
-                  
+    } 
+    table td {
+        padding-top: 8px;
+        padding-bottom: 8px;  
     }
-    .third tr {
-        vertical-align: top;
+    table tr:nth-of-type(odd) {
+        background-color: #183838;  
     }
+    table tr:nth-of-type(even) {
+        background-color: #2f4f4f;
+    }
+    .table-header {
+        font-weight: bold;
+        font-size: 1.25em; /* 1.25 modularscale.com*/ 
+        background-color: #012223;
+        text-align: center;       
+    }   
+ 
+    .third td{
+        width: 333px;
+        text-align: center;           
+        vertical-align: top;  
+    }  
+
+ 
     .third td::first-line {
         font-weight: bold;
         font-size: 1.25em; /* 1.25 modularscale.com*/
     }
+    .bottom-table td::first-line {        
+        font-size: 1.25em; /* 1.25 modularscale.com*/
+    }
+
+    .bottom-table-col1 {
+        width: 700px;       
+    }
+    .bottom-table-col2 {
+        width: 300px;    
+    }
+
+
 </style>
 </head> 
 
@@ -52,7 +78,10 @@
         </nav>
     </header>
 
-    <table class="third">       
+    <table class="third">            
+        <tr>
+            <td colspan="3" class="table-header">Menu</td>
+        </tr>
         <tr> 
             <td>Burger and Fries<br>
                 An American Classic!<br>
@@ -105,8 +134,34 @@
                 french fries<br>
                 $7.95
             </td> 
-        </tr> 
+        </tr>
+        <tr>  
+            <td>&nbsp;</td> 
+            <td></td> 
+            <td></td> 
+        </tr>    
     </table>
+<br>
+    <table class="bottom-table">  
+       <tr><td colspan="2" class="table-header">Beverages</td></tr>
+        <tr>  
+            <td class="bottom-table-col1">Root Beer</td> 
+            <td class="bottom-table-col2">$3.00</td>                      
+        </tr>
+        <tr>  
+            <td>Bottled Water</td> 
+            <td>$1.25</td>                      
+        </tr>
+        <tr>  
+            <td>Lemonade</td> 
+            <td>$1.00</td>                      
+        </tr>
+        <tr>  
+            <td>Iced Tea</td> 
+            <td>$1.25</td>                      
+        </tr>
+    </table>
+
     <footer>
         <hr />        
             37945 Miller Pl, Levittown, NY 11756<br>
