@@ -6,7 +6,7 @@
 ; Course:  Software Guild's Intro to Web Development
 ; Desc:    Code Assessment: Restaurant Site Part 2
 ; Created: 20 September 2020
-; Revised: 23 September 2020
+; Revised: 26 September 2020
 ; Notes:   Fonts based on Base: 1em | Ratio: 1.25
 ;          From site www.modularscale.com
 ;=====================================================
@@ -37,9 +37,37 @@ nav {
 nav a {      
       padding: 10px;           
 }
-.main {
+
+
+/* begin styles from the home page */
+
+.desc-first-line {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.25em; /* 1.25 modularscale.com*/
+    margin-bottom:0px;     
+}
+
+.fourth{
     width: 400px;
-    margin: auto;
-    
-    padding: 5px;
+}
+
+.firstlastcol {
+    width: 300px;
+}
+
+.ithird td{               
+    background-color:darkslategrey;
+    padding: 10px;        
+}
+
+.ithird table {
+    width: 1000px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;                
+}
+
+.ithird tr {
+    vertical-align: top;
 }
