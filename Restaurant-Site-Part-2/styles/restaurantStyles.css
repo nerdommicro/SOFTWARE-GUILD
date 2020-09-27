@@ -33,7 +33,6 @@ header h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 4.768em;
 }
-
 nav {
     text-align: left;
 }
@@ -41,14 +40,17 @@ nav {
 nav a:link {
     padding: 10px; 
     color:blue;
+    text-decoration: underline;
 }
 nav a:visited {
     padding: 10px; 
     color:hotpink;
+    text-decoration: none;
 }
 nav a:hover {
     padding: 10px; 
     font-weight: bold;
+    text-decoration: none;
 }
 nav a:active {
     padding: 10px; 
