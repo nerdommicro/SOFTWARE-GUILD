@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+
+<!--
+======================================================
+; File:    menu.html - Menu Page
+; Author:  Michelle Nesbitt
+; Course:  Software Guild's Intro to Web Development
+; Desc:    Code Assessment: Restaurant Site Part 2
+; Created: 20 September 2020
+; Revised: 23 September 2020
+;=====================================================
+-->
+<html lang="en"> 
+<head> 
+    <title>Nerdom's City Buffet - Menu</title>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        table {
+            width: 1000px; 
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        } 
+        table td {
+            padding: 8px 8px 8px 8px;
+              
+        }
+        table tr:nth-of-type(odd) {
+            background-color: #183838;  
+            color: white;
+        }
+        table tr:nth-of-type(even) {
+            background-color: #2f4f4f;
+            color:white;
+        }
+        .table-header {
+            font-weight: bold;
+            font-size: 1.25em; /* 1.25 modularscale.com*/ 
+            background-color: #012223;
+            text-align: center;       
+        }       
+        .third td{
+            width: 333px;
+            text-align: center;           
+            vertical-align: top;           
+             
+        }     
+      
+
+        .third td::first-line {
+            font-weight: bold;
+            font-size: 1.25em; /* 1.25 modularscale.com*/
+        }
+        .bottom-table td::first-line {        
+            font-size: 1.25em; /* 1.25 modularscale.com*/
+        }
+        .bottom-table-col1 {
+            width: 700px;       
+        }
+        .bottom-table-col2 {
+            width: 300px;    
+        }
+    </style>
+</head> 
+
+<body>    
+    <header>        
+        <h1 class="headerh1">Nerdom's City Buffet</h1> 
+        <nav>
+            <hr /> 
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>         
+            
+        </nav>
+    </header> 
+
+    <table class="third">            
+        <tr>
+            <td colspan="3" class="table-header">Menu</td>
+        </tr>
+        <tr> 
+            <td>Burger and Fries<br>
+                An American Classic!<br>
+                Your choice - with or without cheese<br>
+                Pickle, onion, tomato, and lettuce<br>
+                Served with our famous thick cut <br>
+                french fries<br>
+                $7.95
+            </td> 
+            <td>Hot Dog and Chips<br>
+                An Summer Classic!<br>
+                Your choice - white or wheat bun<br>
+                Relishe, mustard, and ketchup<br>
+                Served with our house-made chips<br>
+                $7.95
+            </td> 
+            <td>Italian Sausage and Peppers<br>
+                An All-Time Favorite!<br>
+                Your choice - mild or spicy Cole Slaw<br>
+                Served with garlic mashers<br>
+                $10.95
+            </td> 
+        </tr> 
+        <tr>  
+            <td>&nbsp;</td> 
+            <td></td> 
+            <td></td> 
+        </tr>
+        <tr> 
+            <td>Tenderloin Sandwich and Chips<br>
+                Really Hits the Spot!<br>
+                Plain or Sesame Seed Bun<br>
+                Pickle, onion, tomato, and lettuce<br>
+                Served with our house-made chips<br>                
+                $8.95
+            </td> 
+            <td>House Salad<br>
+                On the Lighter Side<br>
+                Your choice - with or without cheese<br>
+                Iceberg lettuce, tomatoes, peppers<br>
+                Thousand Island or Ranch Dressing<br>
+                Served with a dinner roll<br>
+                $6.95
+            </td> 
+            <td>Brisket Sandwich and Fries<br>
+                A Taste of Texas!<br>
+                Smoked Brisket on thick-cut<br>Texas Toast<br>
+                Cole Slaw<br>
+                Served with our famous thick cut <br>
+                french fries<br>
+                $7.95
+            </td> 
+        </tr>
+        <tr>  
+            <td>&nbsp;</td> 
+            <td></td> 
+            <td></td> 
+        </tr>    
+    </table>
+<br>
+    <table class="bottom-table">  
+       <tr><td colspan="2" class="table-header">Beverages</td></tr>
+        <tr>  
+            <td class="bottom-table-col1">Root Beer</td> 
+            <td class="bottom-table-col2">$3.00</td>                      
+        </tr>
+        <tr>  
+            <td>Bottled Water</td> 
+            <td>$1.25</td>                      
+        </tr>
+        <tr>  
+            <td>Lemonade</td> 
+            <td>$1.00</td>                      
+        </tr>
+        <tr>  
+            <td>Iced Tea</td> 
+            <td>$1.25</td>                      
+        </tr>
+    </table>
+
+    <footer>
+        <hr />        
+            37945 Miller Pl, Levittown, NY 11756<br>
+            1-800-555-7785
+        <hr />
+    </footer>
+        
+</body> 
+</html>
